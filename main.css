@@ -1,0 +1,366 @@
+@import url('https://fonts.googleapis.com/css?family=Varela+Round&display=swap');
+
+html, body{
+    font-family : 'Verela round', sans-serif;
+   height:100%;
+    width : 100%;
+    color : #222;
+    /*background-color : #3a3a3a;*/
+    background-image: url(bg.jpg);
+}
+#brandy{
+    color : orange; 
+    font-family : 'Varela Round'; 
+    font-size : 30px; 
+    text-shadow : 1px 2px 1px black;
+    font-weight: 600;
+    padding :10px;
+}
+#menu0{
+    position : absolute;
+    transform : translateX(50%);
+    left : 70%;
+}
+
+
+#joinForm,#loginForm{
+    background-color : rgba(233,233,233,0.7);
+    border : double black 2px;
+    margin : 0 33%;
+    padding: 10px 20px;
+    margin-bottom: 20px;
+    border-radius:3px;
+}
+#msg{
+    border-radius : 12px;
+    padding : 10px 5px;
+}
+#joinForm input,#loginForm input{
+    padding : 5px;
+    border-radius : 3px;
+    width:400px;
+}
+#loginForm{
+        margin-bottom : 80px;
+}
+navbar{
+    padding : .8rem;
+}
+.navbar-nav li{
+    padding-right : 20px;
+}
+.nav-link{
+    font-size : 1.1em !important;
+}
+.carousel-inner img{
+    width : 100%;
+    height : 100%;
+}
+.carousel-caption{
+    position : absolute;
+    top : 50%;
+    transform: translateY(-50%);
+}
+
+.carousel-caption h1{
+    font-size : 500%;
+    text-transform : uppercase;
+    text-shadow : 1px 1px 15px #000;
+}
+.carousel-caption h3{
+    font-size : 200%;
+    font-weight : 500;
+    text-shadow : 1px 1px 10px #000;
+    padding-bottom : 1rem;
+}
+
+.btn-warning,btn-success{
+        opacity: 0.9;
+        padding : 5px 10px;
+}
+.btn-warning:hover{
+    background-color : gold;
+    color : grey;
+    border : 1px solid grey;
+}
+
+footer{
+    background-color : #3f3f3f;
+    color : #d5d5d5;
+    padding-top : 2rem;
+}
+hr.dark{
+    border-top : 2px double grey;
+    width : 40%;
+    margin-top : 0.8rem;
+    margin-bottom: 1rem;
+}
+hr.light{
+    border-top : 2px double grey;
+    width : 75%;
+    margin-top : 0.8rem;
+    margin-bottom: 1rem;
+}
+footer .btn-floating{
+    height : 60px;
+    width : 60px;
+    color : orange;
+    padding-top : 15px;
+    background-color : #3f3f3f;
+}
+
+.aboutIcons,aboutUsPictures{
+    height : 100px;
+    width: 100px;
+    border-radius : 50px;
+    margin-bottom : 15px;
+    margin-top : 15px;
+}
+
+article .md-3{
+    border : double 5px #111;
+    border-radius : 5px;
+    padding : 20px 40px;
+    margin-right : 20px;
+    background-color : rgba(233,233,233,0.7);
+}
+
+article .md-3 h4{
+    font-size : 20px;
+}
+article .md-3 h2{
+    color : black;
+}
+article{
+    margin-bottom : 30px;
+}
+article h1{
+    font-size : 50px;
+    margin-top : 30px;
+    margin-bottom : 20px;
+    color : white;
+    text-shadow : 1px 1px 5px black;
+    font-weight: 400;
+}
+.aboutUsPictures{
+    height : 120px;
+    width : 120px;
+    border-radius : 60px;
+    margin-top : 15px;
+    margin-bottom : 15px;
+}
+h4.infoText{
+    color : white;
+    text-shadow: 1px 1px 2px black;
+    font-weight: 300;
+}
+h3.infoText{
+    color : white;
+    text-shadow: 1px 1px 2px black;
+    font-weight: 300;
+    font-size: 15px;
+}
+h5.infoAlias{
+    color : darkblue;
+}
+h3.friendText{
+    color: white;
+}
+h3.col-md-3:hover{
+    color : dodgerblue;
+    border : orange 1px solid;
+}
+
+.error{
+    color : orange;
+}
+.error:hover{
+    color : white;
+    text-decoration: none;
+}
+
+.titleIndex,#titleIndex2{
+    margin : 15px 33%;
+    background-color: brown;
+    border-radius : 10px;
+    color : white;
+    font-size : 25px;
+    padding : 20px 30px;
+    border : double 5px white;
+    text-shadow : 1px 1px 2px #3a3a3a;
+}
+#titleIndex2{
+    background-color : cadetblue;
+    color : white;
+    text-shadow : 1px 1px 3px black;
+    border : double 5px white;
+}
+
+.productsTable{
+    border-spacing: 30px;
+    border-collapse: separate;
+}
+#productName{
+    background-color : black;
+    color : white;
+    text-shadow : 1px 1px 2px black;
+    padding : 3px 0 6px 0;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+
+#marketLogo,#marketLogo2
+{
+    height : 30px;
+    width : 90px;
+    background-color : white;
+    border-radius : 5px;
+}
+
+#marketLogo2
+{
+    height : 80px;
+    width : auto;
+}
+#marketLogo3
+{
+    height : 130px;
+    width : auto;
+}
+
+#productImg{
+    height : 300px;
+    width : 300px;
+    border-radius : 20px;
+    align-content: center;
+}
+.MarketButton{
+    display : inline-flex;
+    background-color : black;
+    padding : 5px 30px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    margin : 5px 0 0 0;   
+}
+#productPrice{
+    color : whitesmoke;
+    font-size : 15px;
+    padding : 7px 0 0 13px;
+    text-shadow : 1px 1px 2px black;
+}
+#about{
+        padding-bottom: 20px;
+}
+
+#infosAboutt{
+        padding-left : 15%;
+}
+
+.passHelp{
+    color : gold;
+    text-shadow : 1px 1px 2px black;
+}
+.error1
+{
+    color : orange;
+    align-content: center;
+}
+#userPic
+{
+    height : 115px;
+    width : 115px;
+    border-radius : 50%;
+}
+
+a[href="settings.php"],a[href="logout.php"],a[href="changePassword.php"]
+{
+    color : orange;
+}
+
+a[href="settings.php"]:hover,a[href="logout.php"]:hover,a[href="changePassword.php"]:hover{
+    color:gold;
+    text-decoration: none;
+}
+
+#productImg2
+{
+    height : 350px;
+    width : 350px;
+    border-radius : 20px;
+    align-content: left;
+    padding : 5px;
+    border : 2px solid white;   
+}
+
+#biggy
+{
+    height: 350px;
+    overflow-y: scroll;
+}
+#smally
+{
+    height: 350px;
+    
+}
+#catalogueBg
+{
+    background-color : black;
+    opacity : 0.8;
+    border : double 3px white;
+    border-radius : 15px;
+
+}
+.catalogueLib, .catalogueLib2
+{
+    color : black;
+    font-size : 25px;
+    background-color : white;
+    padding : 20px;
+    margin-bottom: 15px;
+}
+.catalogueLib2
+{
+    padding : 8px 30px;
+    background-color : black;
+    color : white;
+     
+}
+.livreurLib
+{
+    color : black;
+    font-size : 25px;
+    padding : 20px;
+    margin-bottom: 5px;}
+.flex-column
+{
+    background-color : rgba(0,0,0,0.8);
+    align-content: center;
+    margin : 20px 100px 33%;
+    font-size: 30px;
+}
+.flex-column a
+{
+    color : white;
+    font-size : 30px;
+    align-content: center;
+}
+.flex-column a:hover
+{
+    background-color: white;
+    color : black;
+    transition : 0.1s;
+}
+#buttonss
+{
+    display: inline-flex;
+    margin-left : 25%;
+}
+#buttonss a
+{
+    margin-left : 4%;
+}
+.overflowww
+{
+    overflow-y: auto;
+    height: 100%;
+}
